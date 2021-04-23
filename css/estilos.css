@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #e6e6e6;
+}
+ header, .main, footer, table {
+   background: #fff;
+   width: 90%;
+   max-width: 1000px;
+   margin: 20px auto;
+ }
+ header img {
+   float: left;
+   background: #33F4FF;
+ }
+header nav{
+  background: #33F4FF;
+  overflow: hidden;
+}
+header nav ul {
+  list-style:none;
+}
+header nav ul li{
+  float: right;
+}
+header nav ul li a {
+  padding: 14.5px 40px;
+  display: block;
+  color: : white;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+  background: #75ACEC;
+}
+h1, h2 {
+  text-align: center;
+}
+p {
+  width: 70%;
+  margin: auto;
+}
+footer{
+  background: #000;
+  color: #fff;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center;
+}
+.tabla td {
+  text-align: center;
+	padding: 3px;
+	background:#fff;
+	margin-bottom: 20px;
+}
+.principal td {
+  background: blue;
+  color: #fff;
+  padding: 9px;
+}
+.imagenes img {
+  padding: 20px 20px;
+}
+.logos img {
+  padding: 20px 20px
+}
+.direccion1, .direccion2 {
+
+  float: left;
+  background: #fff;
+  width: 50%;
+}
+.direccion2 {
+  text-align: right;
+}
+.tel a{
+  color: #000;
+}
+.telefono {
+  width: 25%
+}
