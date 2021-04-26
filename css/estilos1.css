@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background: #e6e6e6;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+}
+header{
+	background: #fff;
+	width: 100%;
+	margin: 20px auto;
+}
+header img {
+	float: left;
+	background: #33F4FF;
+}
+header nav{
+ background: #33F4FF;
+ overflow: hidden;
+}
+header nav ul {
+ list-style:none;
+}
+header nav ul li{
+ float: right;
+}
+header nav ul li a {
+ padding: 14px 40px;
+ display: block;
+ color: : white;
+ text-decoration: none;
+}
+header nav ul li a:hover{
+ background: #75ACEC;
+}
+
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor,  .carousel__contenedor1, .carousel__contenedor2, .carousel__contenedor3, .carousel__contenedor4,
+.carousel__contenedor6,  .carousel__contenedor5,  .carousel__contenedor7, .logos {
+	position: relative;
+}
+
+.carousel__anterior, .carousel__siguiente,
+.carousel__anterior1, .carousel__siguiente1,
+.carousel__anterior5, .carousel__siguiente5,
+.carousel__anterior7, .carousel__siguiente7,
+.carousel__anterior6, .carousel__siguiente6 {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #000;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover, .carousel__siguiente:hover,
+.carousel__anterior1:hover, .carousel__siguiente1:hover,
+.carousel__anterior6:hover, .carousel__siguiente6:hover,
+.carousel__anterior5:hover, .carousel__siguiente5:hover,
+.carousel__anterior7:hover, .carousel__siguiente7:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior, .carousel__anterior1, .carousel__anterior6, .carousel__anterior5, .carousel__anterior7 {
+	left: -30px;
+}
+
+.carousel__siguiente, .carousel__siguiente1, .carousel__siguiente6, .carousel__siguiente5, .carousel__siguiente7 {
+	right: -30px;
+}
+
+.carousel__lista, .carousel__lista1, .carousel__lista2, .carousel__lista3, .carousel__lista4, .carousel__lista5, .carousel__lista6, .carousel__lista7, .logos {
+	overflow: hidden;
+}
+
+.carousel__elemento, .carousel__elemento1, .carousel__elemento2, .carousel__elemento3, .carousel__elemento4,
+ .carousel__elemento5, .carousel__elemento6, .carousel__elemento7 {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot, .carousel__indicadores1 .glider-dot,
+.carousel__indicadores2 .glider-dot, .carousel__indicadores3 .glider-dot,
+.carousel__indicadores4 .glider-dot, .carousel__indicadores6 .glider-dot,
+.carousel__indicadores5 .glider-dot, .carousel__indicadores7 .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #000;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover, .carousel__indicadores1 .glider-dot:hover,
+.carousel__indicadores2 .glider-dot:hover, .carousel__indicadores3 .glider-dot:hover,
+.carousel__indicadores4 .glider-dot:hover, .carousel__indicadores5 .glider-dot:hover,
+.carousel__indicadores6 .glider-dot:hover, .carousel__indicadores7 .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active, .carousel__indicadores1 .glider-dot.active,
+.carousel__indicadores2 .glider-dot.active, .carousel__indicadores3 .glider-dot.active,
+.carousel__indicadores4 .glider-dot.active,.carousel__indicadores5 .glider-dot.active,
+.carousel__indicadores6 .glider-dot.active, .carousel__indicadores7 .glider-dot.active {
+	opacity: 1;
+}
+footer {
+	background: #000;
+  color: #fff;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center;
+}
+.imagen img {
+	padding: 40px 50px;
+}
+@media screen and (max-width: 1000px) {
+	body {
+		padding: 40px 0;
+	}
+}

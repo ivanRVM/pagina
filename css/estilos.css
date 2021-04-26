@@ -5,10 +5,17 @@
 body{
   background: #e6e6e6;
 }
- header, .main, footer, table {
+header {
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+ .main, footer, table {
    background: #fff;
    width: 90%;
-   max-width: 1000px;
+   max-width: 1200px;
    margin: 20px auto;
  }
  header img {
